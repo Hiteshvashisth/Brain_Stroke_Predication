@@ -1,7 +1,5 @@
 # Brain Stroke Prediction - Stacking Model
-`Last Updated: 10th December 2022`
 
-## **THIS RESEARCH IS PUBLISHED PLEASE [CLICK HERE](https://ijrpr.com/uploads/V3ISSUE12/IJRPR8627.pdf) FOR READING THE PAPER**
 
 A stroke is an interruption of the blood supply to any part of the brain. If blood flow was stopped for longer than a few seconds and the brain cannot get blood and oxygen, brain cells can die, and the abilities controlled by that area of the brain are lost. In this Notebook we will use some features to see wether we will be able to predict the stoke or not? This is just a theoretical Machine Learning Model that will analyze the data and determine where the stroke can occur.
 
@@ -31,12 +29,6 @@ Points to keep in mind when working with a machine learning model
 1. Jupyter (IDE)
 2. Github (To pull repository)
 
-## Installation Instructions:
-
-1. Clone the repository.
-2. Open terminal and 'cd' to the directory where to saved the repository.
-3. Run the command `pip install -r requirements.txt`.
-4. Now start working on the repository.
 
 ## Methodology:
 
@@ -54,10 +46,6 @@ Points to keep in mind when working with a machine learning model
     c. Decision Tree Classifier
 
     d. Random Forest Classifier
-
-    e. Multi-layer Perceptron classifier
-
-    f. Stacking Classifier
 
 5. Prediction Testing
 
@@ -95,10 +83,9 @@ Points to keep in mind when working with a machine learning model
 2. Support Vector Classification (SVC): SVC is class capable of performing binary and multi-class classification on a dataset.
 3. Decision Tree Classifier: Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation.
 4. Random Forest Classifier: A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
-5. Multi-layer Perceptron classifier: This model optimizes the log-loss function using LBFGS or stochastic gradient descent.
-6. Stacking Classifier: Stacked generalization consists in stacking the output of individual estimator and use a classifier to compute the final prediction. Stacking allows to use the strength of each individual estimator by using their output as input of a final estimator.
-7.. joblib.dump: It collects all the learning and dumps it in one file.
-8. joblib.load: It reconstructs the file for use which is created by 'dump' method.
+
+5.. joblib.dump: It collects all the learning and dumps it in one file.
+6. joblib.load: It reconstructs the file for use which is created by 'dump' method.
 
 ## Prediction Testing
 
